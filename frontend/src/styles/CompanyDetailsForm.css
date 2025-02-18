@@ -1,0 +1,219 @@
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Headings */
+h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+    color: #333;
+}
+
+/* Input, Select, and Textarea Styles */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #E5E7EB; /* Light border */
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #FAFAFA; /* Light background */
+    color: #333;
+    outline: none;
+}
+
+/* Readonly Input */
+.readOnly {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 12px;
+}
+
+/* Multi-line text area */
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Business Activity & NIC Code Inline */
+.business-container {
+    display: flex;
+    gap: 200px;
+}
+
+.business-container select {
+    flex: 1;
+}
+
+.business-container input {
+    flex: 2;
+}
+
+/* Address Fields in Grid Layout */
+.address-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+}
+
+.address-line {
+    width: 100%;
+}
+
+.city-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.city-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+}
+
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.upload-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    flex: 1; /* Pushes button to the right */
+    text-align: left;
+}
+
+
+.upload-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #F4F4F5; /* Light grey background */
+    color: #333;
+    transition: 0.3s;
+    position: relative;
+}
+
+
+.upload-button:hover {
+    background-color: #E5E7EB;
+}
+
+
+.upload-button::before {
+    content: "+";
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+    color: #6A67CE;
+}
+
+
+.upload-button input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.file-name {
+    font-size: 14px;
+    color: #6A67CE;
+    margin-left: 170px; /* Align file name under the button */
+    margin-top: 5px;
+}
+
+button {
+    background-color: #6a67ce;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #534bae;
+}
+
+.directors-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.directors-heading {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.director-name {
+    font-size: 16px;
+    color: black;
+    padding: 5px 10px;
+    cursor: default;
+    border-bottom: 2px solid transparent;
+}
+
+.director-name.active {
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom: 2px solid blue;
+}
+
+.director-form {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

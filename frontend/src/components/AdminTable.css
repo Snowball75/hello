@@ -1,0 +1,53 @@
+/* Table Styles */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #4a5568; /* Dark border */
+}
+
+.table th, .table td {
+    border: 1px solid #cbd5e0; /* Light gray border */
+    padding: 10px;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #edf2f7; /* Light gray background */
+}
+
+.table tbody tr:hover {
+    background-color: #f7fafc; /* Light hover effect */
+}
+
+/* Button Styles */
+.button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button-edit {
+    background-color: #3182ce; /* Blue */
+    color: white;
+}
+
+.button-edit:hover {
+    background-color: #2b6cb0; /* Darker blue */
+}
+
+.button-delete {
+    background-color: #e53e3e; /* Red */
+    color: white;
+}
+
+.button-delete:hover {
+    background-color: #c53030; /* Darker red */
+}

@@ -1,0 +1,104 @@
+
+.company-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.company-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+}
+
+
+
+.company-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    min-height: 120px;
+}
+
+
+.company-card:hover {
+    border-color: #6A67CE;
+}
+
+
+.company-card.selected {
+    border: 2px solid #6A67CE;
+    background-color: #F9F9FF;
+}
+
+
+.company-card input[type="radio"] {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+
+.company-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #6A67CE;
+}
+
+
+.company-info {
+    flex: 1;
+}
+
+.company-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.company-description {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.continue-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #6A67CE;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.continue-button:hover {
+    background-color: #5A55BD;
+}
