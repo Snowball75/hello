@@ -94,6 +94,10 @@ label {
     transition: 0.3s;
 }
 
+.upload-button:hover {
+    background-color: #EFEFEF;
+}
+
 /* ✅ Submit Button */
 .submit-button {
     width: 100%;
